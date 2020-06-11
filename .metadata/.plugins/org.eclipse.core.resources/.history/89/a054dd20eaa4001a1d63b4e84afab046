@@ -1,0 +1,18 @@
+package oo.composicao;
+
+import oo.composicao.umParaMuitos.Compra;
+
+public class Item {
+
+	String nome;
+	int qtd;
+	double preco;
+	Compra compra;
+
+	public Item(String nome, int qtd, double preco) {
+
+		this.nome = nome;
+		this.qtd = qtd;
+		this.preco = preco;
+	}
+}

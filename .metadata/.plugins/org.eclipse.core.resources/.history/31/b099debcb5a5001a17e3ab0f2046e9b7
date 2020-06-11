@@ -1,0 +1,21 @@
+package classe.DesafioModulo;
+
+public class Jantar {
+
+	public static void main(String[] args) {
+
+		Pessoa pessoa = new Pessoa("Asael", 80.00);
+		
+		System.out.println("Nome: " + pessoa.nome);
+		System.out.println("Peso: " + pessoa.peso);
+		
+		
+		Comida comida = new Comida("Arroz, feijão, bife e batata", 0.500);
+		
+		pessoa.comer(comida);
+		System.out.println("Peso: " + pessoa.peso);
+		
+		Comida comida2 = new Comida("Hamburger", 1.50); 
+	}
+
+}

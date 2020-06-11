@@ -1,0 +1,11 @@
+package oo.composicao.muitoParaMuitos;
+
+public class CursoTeste {
+
+	public static void main(String[] args) {
+
+		Aluno aluno1 = new Aluno("Asael");
+
+	}
+
+}

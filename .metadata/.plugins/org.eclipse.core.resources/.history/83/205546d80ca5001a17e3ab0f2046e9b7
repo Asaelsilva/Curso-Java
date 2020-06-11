@@ -1,0 +1,6 @@
+package oo.composicao.PrimeiroDesafio;
+
+public class Cliente {
+
+	String nome;
+}

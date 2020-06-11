@@ -1,0 +1,10 @@
+package classe.DesafioModulo;
+
+public class Comida {
+
+	
+	String nome;
+	double peso;
+	
+	
+}

@@ -1,0 +1,9 @@
+package oo.heranca.DesafioCarro;
+
+public interface Luxo {
+
+	void ligarAr();
+
+	void desligarAr();
+
+}

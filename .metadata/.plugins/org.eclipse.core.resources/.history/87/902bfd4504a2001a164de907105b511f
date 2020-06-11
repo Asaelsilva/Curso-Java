@@ -1,0 +1,28 @@
+package classe;
+
+public class Data {
+
+	int dia;
+	int mes;
+	int ano;
+
+//	public String obterDataFormatada1() {
+//
+//		String d = Integer.toString(dia);
+//		String m = Integer.toString(mes);
+//		String a = Integer.toString(ano);
+//		String data1 = "Data " + d + "/" + m + "/" + a;
+//
+//		return data1;
+//	}
+
+	public String obterDataFormatada() {
+
+		return String.format("Data %d/%d/%d", dia, mes, ano);
+	}
+
+//	public void imprimirDataFormatada() {
+//
+//		System.out.println(obterDataFormatada1());
+//	}
+}

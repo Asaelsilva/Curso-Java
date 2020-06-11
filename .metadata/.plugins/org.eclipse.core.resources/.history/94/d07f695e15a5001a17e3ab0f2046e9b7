@@ -1,0 +1,43 @@
+package classe.DesafioData;
+
+public class Data {
+
+	int dia; 
+	int mes;
+	int ano;
+	
+	boolean dataInvalida = false;
+	
+	Data(int dia, int mes, int ano){
+		if(dia < 32 && mes < 13 && ano < 2020) {
+			this.dia = dia;
+			this.mes = mes;
+			this.ano = ano;
+			
+			dataInvalida = true;
+		}else {
+			dataInvalida = false;
+			System.out.println("Data invalida");
+		}
+		
+		
+	}
+	
+	 String dataFormatada() {
+		if (!dataInvalida) {
+			var forma = "Data %d/%d/%d";
+			 
+			 return String.format(forma, dia, mes, ano);
+		}
+		return "";
+		  
+				 
+	 }
+	 
+	 void obterDataFormatada() {
+		 System.out.println(dataFormatada());
+	 }
+	
+	
+	
+}

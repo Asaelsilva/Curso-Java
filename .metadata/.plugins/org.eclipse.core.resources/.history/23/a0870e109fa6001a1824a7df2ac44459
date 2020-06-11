@@ -1,0 +1,12 @@
+package oo.composicao.PrimeiroDesafio;
+
+public class Item {
+
+	int qtd;
+	
+	Produto produto;
+	
+	Item(Produto produto){
+		
+	}
+}

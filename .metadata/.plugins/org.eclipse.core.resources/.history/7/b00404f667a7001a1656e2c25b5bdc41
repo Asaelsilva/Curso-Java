@@ -1,0 +1,14 @@
+package oo.emcapsulamento;
+
+public class Pessoa {
+
+	private int idade;
+	
+	public Pessoa() {
+	}
+	
+	public int ler() {
+		
+		return idade;
+	}
+}

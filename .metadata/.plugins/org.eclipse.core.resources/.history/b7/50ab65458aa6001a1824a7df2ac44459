@@ -1,0 +1,20 @@
+package oo.composicao.PrimeiroDesafio;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cliente {
+
+	String nome;
+	
+	List<Compra> compra = new ArrayList<Compra>();
+	
+	double obterValorTotal(){
+		 double total = 0;
+		 for (Item item : itens) {
+			total += item.qtd * item.produto.preco;
+		}
+		
+		return total;
+	}
+}

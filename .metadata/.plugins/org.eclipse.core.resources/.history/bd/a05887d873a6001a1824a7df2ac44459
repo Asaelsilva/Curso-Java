@@ -1,0 +1,11 @@
+package oo.composicao;
+
+
+
+public class Compra {
+	
+	String nome;
+
+	public Compra(String nome) {
+	}
+}

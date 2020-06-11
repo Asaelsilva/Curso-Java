@@ -1,0 +1,14 @@
+package oo.abstrato;
+
+public class TesteAbstrato {
+
+	public static void main(String[] args) {
+
+		Animal animal = new Cachorro();
+				
+		System.out.println(animal.mover());
+		System.out.println(animal.);
+		System.out.println(animal.respirar());
+	}
+
+}

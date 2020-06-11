@@ -1,0 +1,61 @@
+package oo.composicao;
+
+public class Carro {
+	
+	//Motor motor = new Motor();
+	
+	boolean porta = false;
+	
+	
+	
+	Motor motor;
+	
+	
+	public Carro() {
+		this.motor = new Motor(this);
+	}
+	
+	
+	
+	void portaCarro(String condicao) {
+		if (condicao.equalsIgnoreCase("fecha")) {
+			porta = true;
+		} else if (condicao.equalsIgnoreCase("abrir")) {
+			porta = false;
+		}
+		
+	}
+	
+	void acelerar() {
+		if (porta) {
+			
+			if (motor.fatorInjecao < 2.5) {
+				
+				motor.fatorInjecao += 0.4;
+			}
+		}
+	}
+	
+	void frear() {
+		if (motor.fatorInjecao > 0.5) {
+			
+			motor.fatorInjecao -= 0.4;
+		}
+	}
+	
+	void ligar() {
+		if (porta) {
+			motor.ligado = true;
+		}
+	}
+	
+	void desligar() {
+		motor.ligado = false;
+	}
+	
+	boolean estaLigado() {
+		return motor.ligado;
+	}
+	
+	
+}

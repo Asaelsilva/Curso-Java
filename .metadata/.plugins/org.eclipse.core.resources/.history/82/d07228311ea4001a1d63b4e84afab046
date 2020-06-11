@@ -1,0 +1,20 @@
+package classe;
+
+public class Usuario {
+
+	String nome;
+	String email;
+	
+	
+	public boolean equals(Object obj) {
+		
+		if (Obj instanceof Usuario) {
+			
+			Usuario outro = (Usuario) obj;
+			return super.equals(obj);
+		}
+		
+		return false;
+	}
+	
+}

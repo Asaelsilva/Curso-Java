@@ -1,0 +1,39 @@
+package Colecoes;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Fila {
+
+	public static void main(String[] args) {
+		
+		Queue<String> fila = new LinkedList<String>();
+		
+		//Offer e Add -> Adicionam elementos na fila
+		// diferença é op comportamento quando a fila esta cheia, add lança uma excessao ofeer retorna falso
+
+		fila.offer("Bia");
+		fila.offer("Marco");
+		fila.offer("Lorrayne");
+		fila.offer("Paulo");
+		fila.offer("Luis");
+		fila.offer("Bulma");
+		
+		// metodos para pegar elementos da fila: peek() e element()
+		
+		System.out.println(fila.peek());
+		System.out.println(fila.peek());
+		System.out.println(fila.element());
+		System.out.println(fila.element());
+		
+
+//		fila.size();
+//		fila.clear();
+//		fila.isEmpty(); // saber se a lista está ou não vazia
+		
+		System.out.println(fila.poll());
+		
+
+	}
+
+}

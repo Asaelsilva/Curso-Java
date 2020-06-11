@@ -1,0 +1,15 @@
+package Colecoes;
+
+import java.util.ArrayList;
+
+public class Lista {
+
+	public static void main(String[] args) {
+
+		ArrayList<Usuario> lista = new ArrayList<>();
+		
+		lista
+
+	}
+
+}

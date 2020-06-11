@@ -1,0 +1,13 @@
+package oo.composicao.PrimeiroDesafio;
+
+public class Produto {
+	
+	String nome;
+	double preco;
+	
+	
+	
+	public Produto(String nome, double preco) {
+		// TODO Auto-generated constructor stub
+	}
+}

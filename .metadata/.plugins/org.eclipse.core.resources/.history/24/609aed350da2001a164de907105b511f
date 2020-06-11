@@ -1,0 +1,29 @@
+package classe;
+
+public class Produto {
+
+	String nome;
+	double preco;
+	double desconto;
+	
+
+	public Produto() {
+		
+	}
+
+	public Produto(String nomeInicial, double precoInicial, double desInicial) {
+
+		nome = nomeInicial;
+		preco = precoInicial;
+		desconto = desInicial;
+	}
+
+	
+	public double precoComDesconto() {
+
+		var desFinal = preco * (1 - desconto);
+
+		return desFinal;
+	}
+
+}

@@ -1,0 +1,14 @@
+package oo.composicao.muitoParaMuitos;
+
+public class Aluno {
+	
+	
+	String nome;
+	
+	
+	public Aluno() {
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

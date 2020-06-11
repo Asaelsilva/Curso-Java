@@ -1,0 +1,31 @@
+package oo.composicao;
+
+public class CompraTeste {
+
+	public static void main(String[] args) {
+
+	
+		Compra compra = new Compra();
+		
+		compra.cliente = "Asael";
+		
+		compra.items.add(new Item("Arroz", 2, 5.00));
+		compra.items.add(new Item("Feijão", 1, 5.00));
+		compra.items.add(new Item("Açucar", 4, 2.50));
+		compra.adicionarItem(new Item("Bala", 3, 0.55));
+		
+		
+		
+		
+		compra.obterItemsDaCompra();
+		System.out.println("Quantidade de produtos: " + compra.items.size());
+		System.out.println("Quntidade de items: " + compra.totalQdt());
+		System.out.println("Total da Compra: " + compra.obterValorTotal());
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package oo.composicao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Compra {
+	
+	String nome;
+	
+	
+	List<Item> items = new ArrayList<Item>();
+	
+	public Compra(String nome) {
+		this.nome = nome;
+	}
+}

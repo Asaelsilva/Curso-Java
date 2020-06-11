@@ -1,0 +1,22 @@
+package oo.emcapsulamento;
+
+public class Pessoa {
+
+	private int idade;
+
+	public Pessoa(int idade) {
+		alterarIdade(idade);
+	}
+	
+	//Getter
+	public int getIdade() {
+
+		return idade;
+	}
+
+	public void setIdade(int novaIdade) {
+		if (novaIdade >= 0 && novaIdade <= 120) {
+			this.idade = novaIdade;
+		}
+	}
+}

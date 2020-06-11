@@ -1,0 +1,21 @@
+package classe.DesafioModulo;
+
+public class Pessoa {
+
+	String nome;
+	double peso;
+	
+	public Pessoa(String nome, double peso) {
+		
+		this.nome = nome;
+		this.peso = peso;
+		
+		System.out.println("Peso antes de comer: ", peso);
+	}
+	
+	double comer(Comida comida){
+		
+		this.peso += comida.peso;
+		return this.peso;
+	}
+}

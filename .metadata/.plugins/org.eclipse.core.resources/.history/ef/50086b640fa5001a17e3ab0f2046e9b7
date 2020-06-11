@@ -1,0 +1,27 @@
+package classe.DesafioData;
+
+public class DataTeste {
+
+	public static void main(String[] args) {
+		
+		Data data1 = new Data();
+		Data data2 = new Data();
+	
+		data1.dia = 10;
+		data1.mes = 8;
+		data1.ano = 1990;
+	
+		data2.dia = 20;
+		data2.mes = 12;
+		data2.ano = 2020;
+		
+		
+		System.out.println("Data: " + data1.dia + "/" + data1.mes + "/" +data1.ano);
+	
+	
+	
+	
+	
+	
+	}
+}

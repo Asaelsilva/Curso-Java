@@ -1,0 +1,20 @@
+package oo.emcapsulamento.casaA;
+
+public class Paulo {
+	
+	Ana esposa = new Ana();
+	
+	
+	
+	void testesAcessos() {
+		
+//		segredo
+//		focoDentroDeCasa
+//		formaDeFalar
+//		todosSabem
+
+		
+		System.out.println(esposa.segredo);
+	}
+
+}

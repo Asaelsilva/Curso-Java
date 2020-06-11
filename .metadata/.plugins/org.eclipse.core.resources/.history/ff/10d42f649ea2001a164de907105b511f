@@ -1,0 +1,28 @@
+package classe;
+
+public class Jantar {
+
+	public static void main(String[] args) {
+
+		Pessoa p1 = new Pessoa();
+		
+		p1.nome = "Asael";
+		p1.peso = 70.00;
+		
+		System.out.printf("Asael antes de comer tem %2f kilos", p1.peso);
+		
+		Comida comida1 = new Comida();
+		Comida comida2 = new Comida();
+		
+		comida1.nome = "Arroz, feijão e bife.";
+		comida1.peso = 0.500;
+		
+		comida2.nome = "Lasanha";
+		comida2.peso = 0.200;
+		
+		
+		
+		
+	}
+
+}

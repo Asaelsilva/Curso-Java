@@ -1,0 +1,10 @@
+package oo.emcapsulamento.casaA;
+
+public class Ana {
+
+	private String segredo = "...";
+	String focoDentroDeCasa = "...";
+	protected String formaDeFalar = "...";
+	public String todosSabem = "...";
+	
+}

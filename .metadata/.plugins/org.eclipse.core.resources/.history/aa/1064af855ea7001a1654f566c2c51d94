@@ -1,0 +1,7 @@
+package oo.emcapsulamento.casaA;
+
+public class Ana {
+
+	private String segredo = "...";
+	
+}

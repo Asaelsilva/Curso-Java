@@ -1,0 +1,37 @@
+package oo.heranca.teste;
+
+import oo.heranca.DesafioCarro.Carro;
+import oo.heranca.DesafioCarro.Civic;
+import oo.heranca.DesafioCarro.Ferrari;
+
+public class CarroTeste {
+
+	public static void main(String[] args) {
+
+		Carro civic = new Civic();
+		Ferrari ferrari = new Ferrari(400);
+		
+		civic.acelerar();
+		System.out.println("Civic => " + civic);
+
+		civic.acelerar();
+		System.out.println("Civic => " + civic);
+
+		civic.acelerar();
+		System.out.println("Civic => " + civic);
+		
+		System.out.println("ferrari => " + ferrari);
+		
+		ferrari.acelerar();
+		System.out.println("ferrari => " + ferrari);
+		
+		ferrari.acelerar();
+		System.out.println("ferrari => " + ferrari);
+		ferrari.frear();
+		
+		ferrari.acelerar();
+		System.out.println("ferrari => " + ferrari);
+
+	}
+
+}

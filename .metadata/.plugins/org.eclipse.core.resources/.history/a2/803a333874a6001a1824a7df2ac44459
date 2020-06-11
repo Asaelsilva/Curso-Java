@@ -1,0 +1,14 @@
+package oo.composicao;
+
+public class Item {
+
+	String nome;
+	int qtd;
+	double preco;
+	
+	public Item(String nome, int qtd, double preco) {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

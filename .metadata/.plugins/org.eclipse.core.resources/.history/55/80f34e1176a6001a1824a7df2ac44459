@@ -1,0 +1,24 @@
+package oo.composicao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Compra {
+	
+	String nome;
+	
+	
+	List<Item> items = new ArrayList<Item>();
+	
+	public Compra(String nome) {
+		this.nome = nome;
+	}
+	
+	
+	void obterItem(){
+		int contador = 1;
+		for (Item item : items) {
+			System.out.println(contador + "° " + item.nome);
+		}
+	}
+}

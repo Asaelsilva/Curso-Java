@@ -1,0 +1,18 @@
+package oo.composicao.muitoParaMuitos;
+
+import java.util.ArrayList;
+
+public class Aluno {
+	
+	
+	String nome;
+	
+	ArrayList<Curso> cursos = new ArrayList<Curso>();
+	
+	
+	public Aluno() {
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

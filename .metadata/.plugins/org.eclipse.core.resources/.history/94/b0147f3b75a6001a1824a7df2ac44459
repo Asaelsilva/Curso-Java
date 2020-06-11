@@ -1,0 +1,16 @@
+package oo.composicao;
+
+public class CompraTeste {
+
+	public static void main(String[] args) {
+
+	
+		Compra compra = new Compra("Asael");
+		
+		System.out.println("Cliente: " + compra.nome);
+		
+		
+		
+	}
+
+}

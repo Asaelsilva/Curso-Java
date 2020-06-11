@@ -1,0 +1,23 @@
+package oo.composicao;
+
+public class CompraTeste {
+
+	public static void main(String[] args) {
+
+	
+		Compra compra = new Compra();
+		
+		compra.cliente = "Asael";
+		
+		Item item = new Item();
+		
+		item.nome = "Arroz";
+		item.qtd = 2;
+		item.preco = 5.00;
+		
+		compra.items.add(item);
+		
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+package classe.DesafioData;
+
+import java.util.Scanner;
+
+public class DataTeste {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		var contador = 2;
+		for (int i = 0; i < contador; i++) {
+			
+		}
+		System.out.print("Dia: ");
+		var dia = entrada.nextInt();
+		
+		System.out.print("M~es: ");
+		var mes = entrada.nextInt();
+		
+		System.out.println("Ano: ");
+		var ano = entrada.nextInt();
+		
+		Data data1 = new Data(dia, mes, ano);
+		Data data2 = new Data(20, 12, 200);
+			
+		System.out.println("Data: " + data1.dia + "/" + data1.mes + "/" +data1.ano);
+		System.out.println("Data: " + data2.dia + "/" + data2.mes + "/" +data2.ano);
+	
+	
+		entrada.close();	
+	
+	
+	
+	}
+}

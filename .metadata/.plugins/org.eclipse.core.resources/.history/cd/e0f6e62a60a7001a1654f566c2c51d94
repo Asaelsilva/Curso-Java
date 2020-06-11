@@ -1,0 +1,11 @@
+package oo.emcapsulamento.casaA;
+
+public class Ana {
+
+	@SuppressWarnings("unused")
+	private String segredo = "...";
+	String focoDentroDeCasa = "...";
+	protected String formaDeFalar = "...";
+	public String todosSabem = "...";
+	
+}

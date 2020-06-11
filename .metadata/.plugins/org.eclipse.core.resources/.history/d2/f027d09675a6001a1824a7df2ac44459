@@ -1,0 +1,25 @@
+package oo.composicao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.sun.tools.sjavac.server.SysInfo;
+
+public class Compra {
+	
+	String nome;
+	
+	
+	List<Item> items = new ArrayList<Item>();
+	
+	public Compra(String nome) {
+		this.nome = nome;
+	}
+	
+	
+	void obterItem(){
+		for (Item item : items) {
+			System.out.println(item.nome);
+		}
+	}
+}

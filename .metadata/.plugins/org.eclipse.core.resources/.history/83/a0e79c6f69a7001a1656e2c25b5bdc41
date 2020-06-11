@@ -1,0 +1,25 @@
+package oo.emcapsulamento;
+
+public class Pessoa {
+
+	private int idade;
+
+	public Pessoa(int idade) {
+		if (idade > 0 && idade < 100) {
+			this.idade = idade;
+		}else {
+			System.out.println(idade + " não é uma idade valida!!");
+		}
+	}
+
+	public int ler() {
+
+		return idade;
+	}
+
+	public void alterarIdade(int novaIdade) {
+		if (novaIdade > 0 && novaIdade < 100) {
+			this.idade = novaIdade;
+		}
+	}
+}

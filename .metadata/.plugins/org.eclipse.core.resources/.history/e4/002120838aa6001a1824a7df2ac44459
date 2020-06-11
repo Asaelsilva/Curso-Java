@@ -1,0 +1,13 @@
+package oo.composicao.PrimeiroDesafio;
+
+public class Item {
+
+	int qtd;
+	
+	Produto produto;
+	
+	public Item(Produto produto, int qtd) {
+		this.produto = produto;
+		this.qtd = qtd;
+	}
+}

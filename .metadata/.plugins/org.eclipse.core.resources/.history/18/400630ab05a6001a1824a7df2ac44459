@@ -1,0 +1,43 @@
+package oo.composicao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Compra {
+
+	String cliente;
+
+	List<Item> items = new ArrayList<>();
+	
+	
+	void adicionarItem(Item item){
+		items.add(item);
+	}
+
+	double obterValorTotal() {
+
+		double total = 0;
+
+		for(Item item : items) {
+			total += item.qtd * item.preco;
+		}
+
+		return total;
+	}
+
+	int totalQdt() {
+		
+		var qtdTotal = 0;		
+		for (Item item : items) {
+			qtdTotal += item.qtd;
+		}		
+		return qtdTotal;
+	}
+
+	void obterItemsDaCompra() {
+		System.out.println("Produtos...");
+		for (Item item : items) {
+			System.out.println(item.nome);
+		}
+	}
+}
