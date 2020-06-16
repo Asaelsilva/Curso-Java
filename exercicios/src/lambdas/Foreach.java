@@ -23,6 +23,15 @@ public class Foreach {
 		System.out.println("\nMethod References...");
 		aprovados.forEach(System.out::println);
 		
+		
+		System.out.println("\nUsando Lambda #2...");
+		aprovados.forEach((nome) -> meuImprimir(nome));
+		
+		System.out.println("\nMethod References #2...");
+		aprovados.forEach(Foreach:: meuImprimir);
+	}
+	static void meuImprimir(String nome) {
+		System.out.println("Oi, meu nome é " + nome);
 	}
 
 }

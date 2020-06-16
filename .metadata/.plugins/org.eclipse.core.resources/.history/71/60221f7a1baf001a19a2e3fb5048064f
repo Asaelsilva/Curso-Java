@@ -1,0 +1,31 @@
+package streams;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class ImprimindoObjetos {
+	
+	public static void main(String[] args) {
+		
+		List<String> aprovados = Arrays.asList
+				("Asael", "Jonatas", "Adna", "Acsa", "Natanael", "Sara");
+		
+		
+		for (int i = 0; i < aprovados.size(); i++) {
+			System.out.println(aprovados.get(i)); 
+		}
+		
+		for (String listaAprovados : aprovados) {
+			System.out.println(listaAprovados);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

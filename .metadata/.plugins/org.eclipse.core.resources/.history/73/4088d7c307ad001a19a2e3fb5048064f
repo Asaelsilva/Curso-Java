@@ -1,0 +1,20 @@
+package lambdas;
+
+import java.util.function.BiFunction;
+import java.util.function.Function;
+
+public class Desafio {
+	
+	public static void main(String[] args) {
+		
+		Produto produto = new Produto("IPad", 2778.00, 0.10);
+		
+				
+		BiFunction<Double, Double, Double> pDesconto = (p , d) -> (p * (1 - d)); 
+		System.out.println(pDesconto.apply(produto.preco, produto.desconto));
+		
+		Function<Double, Double> imposto = 
+		calculoI -> calculoI >= 2500 ? calculoI * (1 - 0.08): 0;
+		
+	}	
+}

@@ -1,0 +1,17 @@
+package lambdas.Predicado1;
+
+import java.util.function.Predicate;
+
+public class Predicado {
+
+	public static void main(String[] args) {
+
+		Predicate<Produto> iscaro = prod -> (prod.preco  * (1 - prod.desconto))>= 600.00;
+		
+		Produto produto = new Produto("Mesa", 700.00, 0.05);
+		
+		System.out.println(iscaro.test(produto));
+
+	}
+
+}

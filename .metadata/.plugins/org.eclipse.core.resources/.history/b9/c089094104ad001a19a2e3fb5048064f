@@ -1,0 +1,19 @@
+package lambdas;
+
+import java.util.function.Predicate;
+
+public class Desafio {
+	
+	public static void main(String[] args) {
+		
+		Produto produto = new Produto("IPad", 1500.00, 0.10);
+		
+		Predicate<Produto> precoDescconto = prod -> (prod.preco  * (1 - prod.desconto))>= 600.00;
+//		Produto produto = new Produto("Mesa", 700.00, 0.05);
+		System.out.println(precoDescconto.test(produto));
+		
+		
+		
+		
+	}	
+}

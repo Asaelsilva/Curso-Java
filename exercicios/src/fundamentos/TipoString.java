@@ -29,7 +29,7 @@ public class TipoString {
 		System.out.println(s.equals("bom dia"));
 		
 		//equalsIgnoreCase Compara essa String com outra String, ignorando as considerações de caso
-		System.out.println(s.equalsIgnoreCase("bom dia"));
+		System.out.println("1°" + s.equalsIgnoreCase("bom dia"));
 		
 		
 		var nome = "Asael";

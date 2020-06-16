@@ -1,0 +1,31 @@
+package lambdas;
+
+import java.util.function.BiFunction;
+import java.util.function.Function;
+import java.util.function.UnaryOperator;
+
+public class Desafio {
+	
+	public static void main(String[] args) {
+		
+		Produto produto = new Produto("IPad", 2778.00, 0.10);
+		
+				
+		BiFunction<Double, Double, Double> pDesconto = (p , d) -> (p * (1 - d)); 
+		
+		Function<Double, Double> imposto = 
+		calculoI -> calculoI >= 2500 ? calculoI * (1 - 0.08): calculoI;
+		System.out.println(imposto.andThen(pDesconto.apply(produto.preco, produto.desconto)));
+		
+		
+		Function<Produto, Double> precoFinal;
+		UnaryOperator<Double> impostoMunicipal;
+		UnaryOperator<Double> frete;
+		
+
+		
+		
+		
+		
+	}	
+}

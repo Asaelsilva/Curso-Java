@@ -1,0 +1,17 @@
+package lambdas;
+
+import java.util.function.Consumer;
+
+public class Desafio {
+	
+	public static void main(String[] args) {
+		
+		Produto produto = new Produto("IPad", 1500.00, 0.10);
+		
+		Consumer<Produto> imprimir = prod -> System.out.println(prod.preco);
+		imprimir.accept(produto);
+		
+		
+		
+	}	
+}

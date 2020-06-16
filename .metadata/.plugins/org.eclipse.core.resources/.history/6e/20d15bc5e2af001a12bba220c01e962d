@@ -1,0 +1,37 @@
+package streams;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class DesafioFilter {
+
+	public static void main(String[] args) {
+
+		
+		Aluno a1 = new Aluno("Asael", 8.5, 1.80);
+		Aluno a2 = new Aluno("Amanda", 7.1, 1.71);
+		Aluno a3 = new Aluno("lais", 8.5, 1.80);
+		Aluno a4 = new Aluno("João", 8.5, 1.80);
+		Aluno a5 = new Aluno("Juninnho", 8.5, 1.80);
+		Aluno a6 = new Aluno("Bia", 8.5, 1.80);
+		Aluno a7 = new Aluno("Rafaela", 8.5, 1.80);
+		Aluno a8 = new Aluno("Rafael", 8.5, 1.80);
+		Aluno a9 = new Aluno("Sara", 8.5, 1.80);
+		Aluno a10 = new Aluno("Jonatas", 8.5, 1.80);
+		Aluno a11 = new Aluno("Alex", 6.5, 1.60);
+		Aluno a12 = new Aluno("Ferando", 8.5, 1.80);
+		
+		
+		List<Aluno> alunos = Arrays.asList(a1, a2, a3, a4, a5, a6, a7, a8, a9, a10, a11, a12);
+
+		alunos.stream()
+			.filter(a -> a.nome.startsWith("A"))
+			.map(a -> a.nome)
+			.forEach(System.out::println);
+		
+		
+		
+		
+	}
+
+}

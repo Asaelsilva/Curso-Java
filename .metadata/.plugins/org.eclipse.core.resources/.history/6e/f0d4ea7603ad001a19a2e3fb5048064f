@@ -1,0 +1,15 @@
+package lambdas;
+
+import lambdas.Predicado1.Produto;
+
+public class Desafio {
+	
+	public static void main(String[] args) {
+		
+		Produto produto = new Produto("IPad", 1500.00, 0.10);
+		
+		
+		
+		
+	}	
+}

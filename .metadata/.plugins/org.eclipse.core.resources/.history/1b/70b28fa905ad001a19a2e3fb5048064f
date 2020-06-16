@@ -1,0 +1,18 @@
+package lambdas;
+
+import java.util.function.BiFunction;
+
+public class Desafio {
+	
+	public static void main(String[] args) {
+		
+		Produto produto = new Produto("IPad", 1500.00, 0.10);
+		
+				
+		BiFunction<Double, Double, Double> 
+		resultado = (n1, n2) -> (n1 * (1 - n2));
+		System.out.println(resultado.apply(7.8, 5.5));
+		
+		
+	}	
+}

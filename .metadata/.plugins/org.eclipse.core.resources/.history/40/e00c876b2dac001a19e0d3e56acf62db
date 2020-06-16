@@ -1,0 +1,15 @@
+package lambdas.Consumidor;
+import lambdas.Predicado1.Produto;
+
+import java.util.function.Consumer;
+
+
+public class Consumidor {
+
+	public static void main(String[] args) {
+
+		Consumer<Produtoto> imprimir = produto -> System.out.println(produto.nome);
+
+	}
+
+}

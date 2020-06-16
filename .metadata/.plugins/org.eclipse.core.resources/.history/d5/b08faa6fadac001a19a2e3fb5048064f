@@ -1,0 +1,31 @@
+package lambdas.Predicado1;
+
+import java.util.function.Consumer;
+
+//import java.util.function.Predicate;
+
+public class Predicado {
+
+	public static void main(String[] args) {
+
+//		Predicate<Produto> iscaro = prod -> (prod.preco  * (1 - prod.desconto))>= 600.00;
+//		
+//		Produto produto = new Produto("Mesa", 700.00, 0.05);
+//		
+//		System.out.println(iscaro.test(produto));
+		
+		Consumer<Produto> imprimir = prod -> System.out.println(prod.nome);
+		
+		Produto produto = new Produto("Caneta", 10.00, 0.1);
+		
+		imprimir.accept(produto);
+		
+		Produto produto1 = new Produto("Lapis", 10.00, 0.1);
+		Produto produto2 = new Produto("Borracha", 10.00, 0.1);
+		Produto produto3 = new Produto("Tesoura", 10.00, 0.1);
+		Produto produto4 = new Produto("Apotador", 10.00, 0.1);
+		
+
+	}
+
+}
