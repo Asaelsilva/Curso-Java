@@ -1,0 +1,16 @@
+package streams;
+
+public class MediaTeste {
+	
+	public static void main(String[] args) {
+		
+		Media media = new Media().adicionar(8.5).adicionar(6.5);
+		
+		System.out.println(media.getValor());
+		
+		
+	}
+	
+	
+
+}
