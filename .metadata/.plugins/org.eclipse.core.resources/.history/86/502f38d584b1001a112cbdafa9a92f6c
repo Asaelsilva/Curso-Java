@@ -2,9 +2,9 @@ package excecao;
 
 public class Aluno {
 
-	public String nome;
-	public double nota;
-	public boolean bomComportamento;
+	String nome;
+	double nota;
+	boolean bomComportamento;
 
 	public Aluno(String nome, double nota) {
 		this(nome, nota, true);
