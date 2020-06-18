@@ -1,0 +1,26 @@
+package excecao;
+
+public class Causa {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+	
+	
+	
+	static void MetodoA(Aluno aluno) {
+		
+	}
+
+	static void MetodoB(Aluno aluno) {
+		if (aluno  == null) {
+			throw new NullPointerException("ALUNO ESTA NULLO!!");
+		}
+		System.out.println(aluno.nome);
+		
+	}
+
+
+}

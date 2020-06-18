@@ -1,0 +1,22 @@
+package excecao;
+
+public class Causa {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+	
+	
+	
+	static void MetodoA(Aluno aluno) {
+		
+	}
+
+	static void MetodoB(Aluno aluno) {
+		
+	}
+
+
+}
