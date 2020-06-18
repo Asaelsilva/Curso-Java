@@ -1,0 +1,26 @@
+package excecao;
+
+public class ChecadaVsNaoChecada {
+
+	public static void main(String[] args) {
+		
+		try {
+			geraErro();
+		} catch (RuntimeException e) {
+			System.out.println(e.getMessage());
+		}
+		geraErro2();
+		
+		
+		System.out.println("Fim!!!");
+	}
+
+	// não checada ou verificada
+	static void geraErro() {		
+		throw new RuntimeException("Ocorreu um erro #01");
+	}
+
+	static void geraErro2() {
+		new Exception("Ocorreu um erro #02");
+	}
+}
