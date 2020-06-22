@@ -1,5 +1,0 @@
-package oo.heranca.DesafioCarro;
-
-public class Ferrari extends Carro {
-
-}

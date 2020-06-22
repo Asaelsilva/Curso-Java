@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="classe.Pessoa"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="classe.Comida"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="classe.Usuario"/>
-    <fullyQualifiedTypeName name="java.util.SortedSet"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="Colecoes.Lista"/>
@@ -25,7 +17,6 @@
     <fullyQualifiedTypeName name="java.lang.Boolean"/>
     <fullyQualifiedTypeName name="classe.DesafioModulo.Pessoa"/>
     <fullyQualifiedTypeName name="classe.DesafioModulo.Comida"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="oo.composicao.Carro"/>
     <fullyQualifiedTypeName name="oo.composicao.Motor"/>
@@ -51,7 +42,6 @@
     <fullyQualifiedTypeName name="oo.emcapsulamento.Pessoa"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="oo.polimorfismo.Pessoa"/>
     <fullyQualifiedTypeName name="oo.polimorfismo.Arroz"/>
     <fullyQualifiedTypeName name="oo.polimorfismo.Jantar"/>
@@ -60,4 +50,14 @@
     <fullyQualifiedTypeName name="oo.heranca.DesafioCarro.Esportivo"/>
     <fullyQualifiedTypeName name="oo.heranca.DesafioCarro.Luxo"/>
     <fullyQualifiedTypeName name="oo.polimorfismo.Comida"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="excecao.Aluno"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaA.StringVaziaException"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaA.NumeroForaIntervaloException"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaA.Validar"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
 </qualifiedTypeNameHistroy>

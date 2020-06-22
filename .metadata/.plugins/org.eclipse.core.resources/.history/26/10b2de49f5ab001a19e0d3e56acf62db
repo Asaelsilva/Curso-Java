@@ -1,6 +1,0 @@
-package lambdas;
-
-public interface Calculo {
-	public abstract double executa(double a, double b);
-
-}
